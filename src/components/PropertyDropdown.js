@@ -1,6 +1,6 @@
 import React, {useState, useEffect, useContext} from 'react';
 
-import {RiHome4Line, RiArrowDownSLine, RiArrowUpSLine, RiHome5Line} from "react-icons/ri"
+import {RiHome4Line, RiArrowDow , RiArrowUpSLine, RiHome5Line} from "react-icons/ri"
 
 import { Menu } from '@headlessui/react'; 
 
@@ -23,7 +23,7 @@ const PropertyDropdown = () => {
                 isOpen ? ( 
                  <RiArrowUpSLine className='dropdown-icon-secondary' />  
                 ) : ( 
-                  <RiArrowDownSLine className="dropdown-icon-secondary" />
+                  <RiArrowUpSLine className="dropdown-icon-secondary" />
                 )
               }
            
@@ -38,7 +38,7 @@ const PropertyDropdown = () => {
           </Menu.Item>
         )})}
       </Menu.Items>
-
+      
       </Menu>
   ) 
 };

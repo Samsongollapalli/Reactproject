@@ -11,7 +11,7 @@ const Banner = () => {
         <h1 className='text-4xl lg:text-[58px] font-semibold leading-none mb-'>
           <span className='text-violet-700'> Rent </span> Your Dream House With Us.
         </h1>
-        <p className='max-w-[480px] mb-8 mt-3 '>
+        <p className='max-w-[480px] mb-8 mt-10 text-lg '>
         Discover your dream home with ease through our rental platform, designed to offer a seamless house-hunting experience. Explore a wide range of properties, complete with detailed listings and user-friendly search tools. Whether you're looking for a cozy apartment or a spacious family house, we help you find the perfect match. Start your journey to renting the perfect home today!
         </p>
       </div>
