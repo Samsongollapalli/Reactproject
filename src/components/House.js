@@ -1,6 +1,8 @@
 import React from 'react';
 
 import {BiBed, BiBath, BiArea} from "react-icons/bi"
+import { FaIndianRupeeSign } from "react-icons/fa6";
+
 const House = ({ house }) => {
   const {image, type, country, address, bedrooms, bathrooms, surface, price  } = house;
   return (
@@ -31,7 +33,7 @@ const House = ({ house }) => {
         <div> {surface} </div>
       </div> 
       </div>
-      <div className='text-lg font-semibold text-violet-600 mb-4'> {price}</div>
+      <div className='text-lg font-semibold text-violet-600 mb-4 flex items-center' > <span className='text-gray-600'> <FaIndianRupeeSign /> </span>   {price}</div>
     </div>
   )
   

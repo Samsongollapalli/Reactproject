@@ -1,15 +1,12 @@
-
-
 import React, { useState } from 'react';
 
 const LoginSignupAlert = ({ isSignUp, handleSignUp, handleLogin, closeAlert }) => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
-
   const handleSubmit = (e) => {
     e.preventDefault();
     if (isSignUp) {
-      handleSignUp(username, password); 
+      handleSignUp(username, password);
     } else {
       handleLogin(username, password);
     }
@@ -56,4 +53,3 @@ const LoginSignupAlert = ({ isSignUp, handleSignUp, handleLogin, closeAlert }) =
 };
 
 export default LoginSignupAlert;
-
